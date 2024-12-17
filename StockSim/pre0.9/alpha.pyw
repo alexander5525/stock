@@ -1,3 +1,8 @@
+# Stock Sim alpha
+# Author: alexander5525
+# Created: 3/23/2023
+# Description: Basic Viewer with no other functionality
+# Note: Please provide proper attribution if reusing any part of this code.
 import pathlib
 from math import isnan, ceil, exp, sqrt
 import pandas as pd
