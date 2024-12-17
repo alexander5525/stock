@@ -1,3 +1,8 @@
+# Stock Sim beta
+# Author: alexander5525
+# Finished: 4/5/2023
+# Description: Basic viewer with simple indicator implementation
+# Note: Please provide proper attribution if reusing any part of this code.
 import pathlib
 from math import isnan, ceil, exp, sqrt, atan, pi
 import pandas as pd
