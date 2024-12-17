@@ -69,6 +69,8 @@ Each version of Stock Sim includes `.odt` documentation files that outline its f
 
 ---
 
+⚠️ **Disclaimer**: This code is published for educational and portfolio purposes. If you'd like to use or reference any part of it, please provide proper attribution or contact me for permission.
+
 ## 🌟 Key Takeaways
 Stock Sim was a transformative project that allowed me to:
 
