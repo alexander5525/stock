@@ -1,0 +1,4 @@
+in case the files in here won't run, try out the exact versions of the libraries, which i installed:
+
+pyqt6 version 6.5.1
+yfinance version 0.2.22
