@@ -1,3 +1,8 @@
+# Stock Sim beta2
+# Author: alexander5525
+# Finished: 5/13/2023
+# Description: Simple stock strategy analyzer that can test a simple strategy on one stock at a time
+# Note: Please provide proper attribution if reusing any part of this code.
 import pathlib
 from math import isnan, ceil, exp, sqrt, atan, pi, floor
 import pandas as pd
