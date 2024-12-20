@@ -1,6 +1,9 @@
 # Stock Sim 📈 – A Strategy Testing and Fine-Tuning Tool
 
 ## 📜 Description
+
+###⚠️ **Disclaimer**: I am currently still looking at what can and what won't go into the github and refining code. Some files will be added soon.
+
 Stock Sim is a Python-based project designed to help users test and fine-tune stock trading strategies. What started as a simple exploration of different AI approaches using TensorFlow evolved into a fully functional tool with GUI support, integrated libraries, and iterative enhancements. Over its various versions, Stock Sim has transitioned from predefined conditions to custom strategies written in `.py` files, offering both flexibility and powerful functionality.
 
 Additionally, this project includes several AI experiments aimed at predicting stock prices, price movements, and even options pricing, leveraging advanced neural network architectures like CNNs. One experiment also incorporates a maze-solving NEAT algorithm as part of the options prediction framework.
