@@ -1,3 +1,8 @@
+# Stock Sim Version 0.9
+# Author: alexander5525
+# Finished: 6/21/2023
+# Description: Simple stock strategy analyzer that can test a simple strategy on one stock at a time and provide backtest data on all stocks in the read folder
+# Note: Please provide proper attribution if reusing any part of this code.
 import pathlib
 from math import isnan, ceil, exp, sqrt, atan, pi, floor
 import typing
