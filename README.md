@@ -54,10 +54,9 @@ This project was a major milestone in my programming journey, teaching me:
 
 ## 📂 Project Structure
 ### **Key Files and Directories**
-- `StockSimVX.Y/`: Folders for each version of Stock Sim, containing:
-  - `main.py`: Core application file for the respective version.
+- `StockSim/X.Y/`: Folders for each version of Stock Sim, containing:
+  - `X.Y.py`: Core application file for the respective version.
   - `.py` strategy examples: Predefined or user-created strategies.
-  - `README.md`: Overview of the specific version's functionality.
   - `doc.odt`: Documentation file (see below for details).
   
 - `AIProjects/`: Contains various AI models and experiments:
