@@ -120,7 +120,7 @@ def split(lis, indx): # split list into two at given index
 def stock_data(ticker, start, end, interval): # get stock data and convert it to a list
     try:
         tik = yf.Ticker(ticker)
-        tim = tik._get_ticker_tz(None, None, 10)
+        tim = tik._get_ticker_tz(None, 10)
         if tim == None:
             raise Exception("Delisted")
         dat = tik.history(start=start, end=end, interval=interval)
