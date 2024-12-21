@@ -1,0 +1,1 @@
+{0()(ci,0,0,35up,0,0.382,2,10,,#ca7594|true)(ci,1,1,35down,0,0.382,2,10,,#ada14f|true)(cc,3,[ci,0,]or,[ci,1,]|true)(ci,2,2,lasttrenddown,0,5,2,10,,#568a51|true)(ci,4,3,lasttrendup,0,100,2,10,,#fd6c35|true)}
