@@ -71,6 +71,6 @@ Each version of Stock Sim includes `.odt` documentation files that outline its f
 ## 🌟 Key Takeaways
 Stock Sim was a transformative project that allowed me to:
 
- - Combine GUI design with machine learning.
- - Create tools that bridge user interaction with advanced AI functionality.
- - Understand the nuances of developing cross-compatible, modular software.
+ - Learn how to configure and debug AI models
+ - Understand how to make GUI's in PYQT6
+ - Better understand the stock market as a whole
