@@ -1,3 +1,8 @@
+# Stock Sim Version 0.9.5
+# Author: alexander5525
+# Finished: 10/5/2023
+# Description: Stock strategy analyzer that allows strategies to be built in a scratch like interface and be tested on s&p 500 live data
+# Note: Please provide proper attribution if reusing any part of this code.
 import pathlib
 from math import isnan, ceil, exp, sqrt, sin, asin, cos, acos, tan, atan, pi, floor, log10
 import typing
