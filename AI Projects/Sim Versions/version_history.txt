@@ -1,0 +1,54 @@
+1.0.0 (First Working version): (in code: 1.0)
+    What it is:
+        - An algorithm, that generates random players, which try to make the most profit out of the stock market by submitting orders.
+    Definitions:
+        - Algorithm: The attempt to generate a good player, by following a genetic algorithm as an approach.
+            - Strategy: Generate a number of players and after testing them in a paper trade simulation, keep top 50% of players and replace bottom 50% with slight mutations of top 50%.
+            - Simulation: While running down historical data from the stock market, players try to make a profit.
+        - Player: An agent, that makes decisions based on Conditions, which make up it's brain. Capable of submitting basic orders (Operations) with set values.
+            - Cell: A condition, which fires if the condition in a certain spot is true; Similar to a neuron in Machine Learning.
+            - Operation: A simple buy order, which consists of a stock to buy, buy amount, stop loss and take profit.
+            - Mutations: A random change to the players Cells such as adding or removing a Cell.
+        - Conditions: Boolean values determined by common stock factors such as:
+            - Moving averages, Exponential moving averages
+            - Candlestick patterns mentioned in this video: https://www.youtube.com/watch?v=hEUALimWs7E
+    Details:
+        - Each Player gets 10,000$ to invest in stocks.
+        - Players are made out of Cells and have a confidence value, which is calculated from the cell activations.
+        - All Cells combined describe a pattern, for which the player is looking for.
+        - The confidence value has to be 1 or more in order for the player to buy.
+        - Players and Cells are randomly generated at first.
+        - Mutations in further away Cell spots are less common.
+        - Two Cells can't be in the same position.
+        - Often needed complex values such as moving averages are precalculated to save on time.
+        - Moving averages are assigned random timeframes.
+        - The amount of profit a player makes is measured in it's score.
+        - At the end a list of high- and midscores is saved to a file.
+        - Player cell data is also saved to a file as a .plr to be loaded in later.
+1.0.1:
+    - (Added Evaluation stock to eliminate luck as good as possible.) Was added but not yet in use
+    - Added Mean Rise Value µ which retroactively tells whether a trade was placed well or not
+    - Added a function that deletes duplicate players in the generation process and fills in new random ones
+1.0.2:
+    - Added success as measurement of good players; With success being defined as the rise value having a certain µ value or more.
+    - Removed Mid-Measurements/Scores
+1.1.0 (The control update):
+    - Made Same Spot Cells possible
+    - Added Small Value Mutations
+    - Added new random function to improve randomness
+    - Added player control over confidence value i.e. through weights that vary from player to player
+    - Now factors in last time a player has bought a stock and current price
+1.1.1:
+    - Added stock shuffling to prevent memorization and to improve strategy testing
+    - Made it so that players that have negative gains are still better than players that didn't trade
+    - Added new conditions based on Bollinger Bands, Volume, Stock Shape
+    - Made Cells able to reverse their activations (False -> True)
+1.1.2:
+    - Added player control over order through weights
+1.2.0 (The last version):
+    - Removed evaluation stock; Unused
+    - Added correlation coefficient to look for similarities in µ and confidence
+    - Added a weight to score that makes it so that players that have a slip-up don't get eliminated immediately
+    - Added a new function that gives players with less or too many trades punishment
+1.2.1:
+    - Added new condition based on trendlines
