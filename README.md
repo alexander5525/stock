@@ -2,11 +2,11 @@
 
 ## 📜 Description
 
-### ⚠️ **Disclaimer**: I am currently still looking at what can and what won't go into the github and refining code. Some files will be added soon.
+### ⚠️ **Disclaimer**: I am currently still looking at what can and what won't go into the github and refining code. Some files will be added soon. Also: this is only being displayed for educational purposes, to display what projects I've been working on in the past years. Any extended use of the programs has to adhere to yfinance's, PYQT6's TOS' among others.
 
 Stock Sim is a Python-based project designed to help users test and fine-tune stock trading strategies. What started as a simple exploration of different AI approaches using TensorFlow evolved into a fully functional tool with GUI support, integrated libraries, and iterative enhancements. Over its various versions, Stock Sim has transitioned from predefined conditions to custom strategies written in `.py` files, offering both flexibility and powerful functionality.
 
-Additionally, this project includes several AI experiments aimed at predicting stock prices, price movements, and even options pricing, leveraging advanced neural network architectures like CNNs. One experiment also incorporates a maze-solving NEAT algorithm as part of the options prediction framework.
+Additionally, this project includes several AI experiments aimed at predicting stock prices, price movements, leveraging advanced neural network architectures like CNNs. One experiment also incorporates NEAT-like algorithms as part of an automatic trading environment.
 
 ---
 
@@ -45,10 +45,6 @@ This project was a major milestone in my programming journey, teaching me:
    - Used TensorFlow to create models predicting short-term price movements.
 2. **Stock Price Prediction**:
    - Implemented and tested neural networks for long-term price forecasting.
-3. **Options Pricing Prediction**:
-   - Experimented with predicting options prices, incorporating:
-     - Maze-solving NEAT algorithms for auxiliary calculations.
-     - Innovative approaches to model complex price patterns.
 
 ---
 
@@ -61,7 +57,6 @@ This project was a major milestone in my programming journey, teaching me:
   
 - `AIProjects/`: Contains various AI models and experiments:
   - Stock price and movement prediction models.
-  - Options pricing prediction algorithms.
   - Maze-solving NEAT algorithm (auxiliary project).
 
 ---
