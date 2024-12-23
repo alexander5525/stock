@@ -2,7 +2,7 @@
 
 ## 📜 Description
 
-### ⚠️ **Disclaimer**: I am currently still looking at what can and what won't go into the github and refining code. Some files will be added soon. Also: this is only being displayed for educational purposes, to display what projects I've been working on in the past years. Any extended use of the programs has to adhere to yfinance's, PYQT6's TOS' among others.
+### ⚠️ **Disclaimer**: This is only being displayed for educational purposes, to display what projects I've been working on in the past years. Any extended use of the programs has to adhere to yfinance's, PYQT6's TOS' among others.
 
 Stock Sim is a Python-based project designed to help users test and fine-tune stock trading strategies. What started as a simple exploration of different AI approaches using TensorFlow evolved into a fully functional tool with GUI support, integrated libraries, and iterative enhancements. Over its various versions, Stock Sim has transitioned from predefined conditions to custom strategies written in `.py` files, offering both flexibility and powerful functionality.
 
