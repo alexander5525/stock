@@ -1,0 +1,19 @@
+<!ELEMENT config (settings)*>
+<!ELEMENT settings (setting | list)*>
+<!ELEMENT setting EMPTY>
+<!ELEMENT list (item | group)+>
+<!ELEMENT group (item)+>
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST item
+    switchcode CDATA #IMPLIED
+>
+<!ATTLIST group
+    name CDATA #REQUIRED
+>
+<!ATTLIST setting
+    name CDATA #REQUIRED
+    boolean (true | false) #IMPLIED
+    value CDATA #IMPLIED
+>
+<!ATTLIST settings
+    name CDATA #REQUIRED>
